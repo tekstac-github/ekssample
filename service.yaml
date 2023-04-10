@@ -4,6 +4,7 @@ metadata:
   name: webapp
 spec:
   selector:
+    type: LoadBalancer
     app: webapp
   ports:
    -  protocol: TCP
