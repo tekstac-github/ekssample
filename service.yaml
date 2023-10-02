@@ -4,7 +4,7 @@ metadata:
   name: webapp
 spec:
   selector:
-    app.kubernetes.io/name: webapp
+    app: webapp
   type: LoadBalancer
   ports:
    -  protocol: TCP
